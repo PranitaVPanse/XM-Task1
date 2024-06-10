@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="XM_Task1" parallel="false">
+	<listeners>
+		<listener class-name="listener.TestNGListener" />
+	</listeners>
+
+	<test name="XM_Task1 Tests">
+		<classes>
+			<class name="TestRunner.TestRunner" /> <!-- Replace with your test
+			runner class -->
+		</classes>
+	</test>
+
+	<!-- You can define additional tests here if needed -->
+
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="StepDefinition.Xm_Task1">
+        <methods>
+          <include name="click_on_lesson_1_1_video_for_1024_768"/>
+          <include name="click_on_economic_calendar_link"/>
+          <include name="moveSliderToAndCheckDate"/>
+          <include name="verify_video_is_played_for_minimum_5_seconds"/>
+          <include name="click_on_research_and_education_link"/>
+          <include name="playVideo"/>
+          <include name="click_on_Lesson_1_1_video_for_max_screen_resolution"/>
+          <include name="click_on_educational_videos_link"/>
+          <include name="click_on_research_and_education_link_for_800_600"/>
+        </methods>
+      </class> <!-- StepDefinition.Xm_Task1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
